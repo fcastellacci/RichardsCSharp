@@ -150,7 +150,7 @@ namespace richardsCsharp
             double score = this.reference / mean;
             this.scores.Add(score);
             string formatted = FormatScore(100 * score);
-            Console.WriteLine("### SCORE: " + formatted); ;
+            Console.WriteLine("### SCORE: " + formatted);
         }
 
         // Notifies the runner that running a benchmark resulted in an error.
